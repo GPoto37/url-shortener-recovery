@@ -1,0 +1,25 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### VS Code ###
+.vscode/
+
+### Environment variables — никогда не коммитить! ###
+.env
+application-local.properties
+application-local.yml
+
+### OS ###
+.DS_Store
+Thumbs.db
+
+taskapi/
